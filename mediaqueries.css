@@ -1,0 +1,163 @@
+@media (max-width: 992px) {
+    .navbar {
+        gap: 10px;
+    }
+
+    .cart-icon {
+        height: 50px;
+        margin-right: 0rem;
+        margin-top: 4px;
+    }
+
+    .navbar-list {
+        position: absolute;
+        top: 70px;
+        width: fit-content;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        right: 5%;
+        left: 75%;
+        padding: 40px 30px;
+        gap: 20px;
+        background-color: #63b96a;
+        border-radius: 5px;
+    }
+
+    .navbar-list a{
+        font-size: 20px;
+    }
+
+    #toggle-menu:checked +
+    .navbar-list{
+        display: flex;
+    }
+    .menu-label {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .img-menu{
+        width: 45px;
+        height: 45px;
+        display: flex;
+    }
+
+    .inicio-info{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inicio-foto img{
+        width: 350px;
+    } 
+}
+
+@media (max-width: 768px) {
+    *{
+        max-width: 100%;
+    }
+
+    #inicio{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    #servicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ubicación{
+        width: 400px;
+        height: 300px;
+    }
+
+    .contacto-info{
+        display: flex;
+        flex-direction:row;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .cuenta,
+    .contacto-container,
+    .ubicación{
+        padding: 25px;
+    }
+}
+
+@media (max-width: 576px){
+    #inicio{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inicio-info{
+        padding: 10%;
+        width: 80%;
+    }
+
+    .inicio-info p{
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        text-align: center;
+        
+        width: 80%;
+    }
+
+    .navbar-list{
+        left: 65%;
+    }
+
+    .servicios-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .card-info{
+        width: 400px;
+    }
+
+    .cuenta,
+    .contacto-container,
+    .ubicación{
+        padding: 15px;
+    }
+
+    .redes-logo{
+        display:flex;
+        flex-direction:row;
+        width: 180px;
+    }
+
+    .ubicación iframe{
+        width: 300px;
+        height: 150px;
+        padding-top: 10px;
+    }
+
+    #servicios{
+        max-width: 100%;
+    }
+
+    #productos{
+        max-width: 100%;
+    }
+
+    .contacto-info{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
